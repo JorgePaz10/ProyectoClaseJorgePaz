@@ -1,19 +1,28 @@
 import { FaUser } from "react-icons/fa";
 
+
+
 function TopNavbar() {
     return (
-        
-        <nav style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '10px', background: '#eee' }}>
-            <span>Mi Aplicación de Administrador </span>
-            <div className="dropdown">
-            <button className="btn btn-dark dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    <FaUser size={24} />
-                     User 
-                </button>
-                <ul className="dropdown-menu">
-            <li><hr className="dropdown-divider"></hr></li>
-            <li><a className="dropdown-item" href="#">Configuracion</a></li>
-                 </ul>
+        <nav className="navbar navbar-expand-lg bg-body-tertiary">
+            <div className="container-fluid">
+                <span className="navbar-brand">Mi Aplicacion de Administrador</span>
+                <div className="dropdown">
+                    <button className="btn btn-light dropdown-toggle"  
+                    type="button"
+                    data-bs-toggle="dropdown">
+                        <FaUser className="me-2" /> Usuario
+                    </button>
+                    <ul className="dropdown-menu dropdown-menu-end">
+                        <li>
+                            <button className="dropdown-item" onClick={() => { }}>
+                                Perfil
+                            </button>
+                        </li>
+                        <li><hr className="dropdown-divider" /></li>
+                        <li><a className="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </div>
             </div>
         </nav>
     );

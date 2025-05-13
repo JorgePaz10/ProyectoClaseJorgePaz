@@ -7,7 +7,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "bootstrap": "^5.3.5",
     "react": "^19.1.0",
@@ -17,5 +16,14 @@
   },
   "devDependencies": {
     "parcel": "^2.14.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JorgePaz10/ProyectoClaseJorgePaz.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JorgePaz10/ProyectoClaseJorgePaz/issues"
+  },
+  "homepage": "https://github.com/JorgePaz10/ProyectoClaseJorgePaz#readme",
+  "description": ""
 }
